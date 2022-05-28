@@ -1,0 +1,15 @@
+name = "kbejko"
+type = "javascript"
+account_id = "0ca44adf207310d8a72019084f7e6a3f"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-05-28"
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = ""
+upload.format = "service-worker"
