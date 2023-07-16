@@ -38,6 +38,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 h1, h2, h3 {
@@ -74,4 +75,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.title {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  font-size: clamp(1em, 3vw, 3em);
 }
